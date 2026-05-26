@@ -1,6 +1,6 @@
-package fundamentals.threadAndRunnable;
+package fundamentals.threadCreationAndSynchronized;
 
-public class ThreadAndRunnableDemo {
+public class ThreadCreationDemo {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("=== Using extends Thread (same object passed, still works but not flexible) ===");
         SharedCounter counter1 = new SharedCounter();

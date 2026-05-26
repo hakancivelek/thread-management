@@ -1,9 +1,9 @@
-package fundamentals.threadAndRunnable;
+package fundamentals.threadCreationAndSynchronized;
 
 public class SharedCounter {
     private int counter = 0;
 
-    public void doWork() {
+    /* synchronized */ public void doWork() {
         counter++;
         System.out.println(Thread.currentThread().getName() + " counter=" + counter);
     }

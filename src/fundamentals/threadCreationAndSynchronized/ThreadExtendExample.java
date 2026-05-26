@@ -1,4 +1,4 @@
-package fundamentals.threadAndRunnable;
+package fundamentals.threadCreationAndSynchronized;
 
 // 1. Using 'extends Thread' (poor design, but possible)
 class ThreadExtendExample extends Thread {

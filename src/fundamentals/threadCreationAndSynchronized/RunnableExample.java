@@ -1,4 +1,4 @@
-package fundamentals.threadAndRunnable;
+package fundamentals.threadCreationAndSynchronized;
 
 // 2. Using 'implements Runnable' (preferred, clean separation)
 class RunnableExample implements Runnable {
